@@ -10,7 +10,7 @@ const Navbar = () => {
             
         </div>
         <div className={`${styles.links}`}>
-            <Button text={"Projects"}/>
+            <Button  text={"Projects"} color={"black"} border_={"none"}/>
             <Button text={"Say Hello"}/>
         </div>
     </div>
