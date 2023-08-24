@@ -43,3 +43,31 @@
     width: 100%;
     object-fit: contain;
 }
+
+
+@media screen and (max-width: 850px) {
+    .container h1{
+        font-size: 40px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .devices{
+        width: 700px;
+    }
+    .avatar{
+        width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .container h1{
+        font-size: 30px;
+    }
+    .devices{
+        width: 500px;
+    }
+    .avatar{
+        width: 140px;
+    }
+  }
