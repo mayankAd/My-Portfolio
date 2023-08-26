@@ -6,11 +6,11 @@ const Navbar = () => {
     <>
     <div className={`${styles.container}`}>
         <div className={`${styles.logo}`}>
-            <a href="#"><img src="images/logo1.png" alt="" /></a>
+            <a href="#"><img src="images/logo2.png" alt="" /></a>
             
         </div>
         <div className={`${styles.links}`}>
-            <Button  text={"Projects"} color={"black"} border_={"none"}/>
+            <a href="#projects_section"><Button  text={"Projects"} color={"black"} border_={"none"}/></a>
             <Button text={"Say Hello"}/>
         </div>
     </div>

@@ -3,7 +3,7 @@ import Project_box from "../project_box/Project_box";
 const My_projects = () => {
   return (
     <div className="flex gap-10 flex-col items-center">
-      <h2 className="text-4xl font-bold">My Projects</h2>
+      <h2 id="projects_section" className="text-4xl font-bold">My Projects</h2>
       <p className="text-xl">
         Here are a few projects I've worked on. Want to see more?{" "}
         <a className="text-blue-600" href="https://github.com/mayankAd" target="blank_" >
