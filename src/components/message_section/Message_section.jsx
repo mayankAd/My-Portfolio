@@ -2,10 +2,10 @@ import React from "react";
 
 const Message_section = () => {
   return (
-    <div className="mt-[100px] border p-10">
+    <div className="mt-[100px] border p-10 ">
       <div className="flex flex-col gap-5">
-        <h2 className="text-center font-bold text-3xl">Send me a message!</h2>
-        <p className="text-center text-lg">
+        <h2 className="text-center font-bold text-4xl">Send me a message!</h2>
+        <p className="text-center text-xl">
           Got a question or proposal, or just want to say hello? Go ahead.
         </p>
       </div>
@@ -28,7 +28,7 @@ const Message_section = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center mt-20"><button className="text-blue-600 font-bold border border-blue-600 rounded-full  pt-2 pb-2 pl-10 pr-10">
+      <div className="flex justify-center mt-20"><button className="text-blue-600 font-bold border border-blue-600 rounded-full  pt-2 pb-2 pl-10 pr-10 ">
         SEND
       </button></div>
       
