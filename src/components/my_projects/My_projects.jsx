@@ -1,5 +1,6 @@
 import Project_box from "../project_box/Project_box";
 
+
 const My_projects = () => {
   return (
     <div className="flex gap-10 flex-col items-center">
@@ -13,23 +14,23 @@ const My_projects = () => {
       </p>
       <div className="flex flex-wrap gap-20 justify-center mt-20">
         <a href="#">
-          <Project_box source={"/images/projects_images/netflix_clone.png"}/>
+          <Project_box source={"/images/netflix_clone.png"}/>
         </a>
 
         <a href="https://mayankad.github.io/Muscle-Showroom/">
-          <Project_box source={"/images/projects_images/nike_brand_page.png"}/>
+          <Project_box source={"/images/nike_brand_page.png"}/>
         </a>
         <a href="#">
-          <Project_box source={"/images/projects_images/spotify_clone.png"}/>
+          <Project_box source={"/images/spotify_clone.png"}/>
         </a>
         <a href="#">
-          <Project_box source={"/images/projects_images/nike_brand_page.png"}/>
+          <Project_box source={"/images/nike_brand_page.png"}/>
         </a>
         <a href="#">
-          <Project_box source={"/images/projects_images/spotify_clone.png"}/>
+          <Project_box source={"/images/spotify_clone.png"}/>
         </a>
         <a href="#">
-          <Project_box source={"/images/projects_images/netflix_clone.png"}/>
+          <Project_box source={"/images/netflix_clone.png"}/>
         </a>
       </div>
     </div>
