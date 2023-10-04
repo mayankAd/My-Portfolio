@@ -5,7 +5,7 @@
     border-radius: 20px;
     width: 90%;
     position:relative;
-    bottom: 150px;
+    bottom: 100px;
     align-items: center;
     background-color: white;
     box-shadow: 1px 1px  5px rgb(215, 215, 215);
@@ -29,8 +29,8 @@
 }
 
 .img_container{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     opacity: .8;
 }
 

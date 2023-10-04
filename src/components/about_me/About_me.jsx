@@ -7,11 +7,9 @@ const About_me = () => {
       <h2>Hi, I'm Mayank. Nice to meet you.</h2>
 
       <p>
-        Since beginning my journey as a freelance designer over 11 years ago,
-        I've done remote work for agencies, consulted for startups, and
-        collaborated with talented people to create digital products for both
-        business and consumer use. I'm quietly confident, naturally curious, and
-        perpetually working on improving my chops one design problem at a time.
+        I am a coding enthusiast with a passion of developing web applications. I like building stuff and solving problems. I'm quietly confident, naturally curious, and
+        perpetually working on improving my skills.
+        I've build some projects which you can checkout in my projects section.
       </p>
     </div>
     </div>
