@@ -16,7 +16,7 @@ const My_projects = () => {
           <Project_box source={"/images/projects_images/netflix_clone.png"}/>
         </a>
 
-        <a href="#">
+        <a href="https://mayankad.github.io/Muscle-Showroom/">
           <Project_box source={"/images/projects_images/nike_brand_page.png"}/>
         </a>
         <a href="#">

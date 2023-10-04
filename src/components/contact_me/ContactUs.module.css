@@ -1,0 +1,46 @@
+.container{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   gap: 60px;
+   margin-top: 80px;
+}
+
+input{
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 5px;
+}
+
+.div1{
+    display: flex;
+    gap: 80px;
+}
+
+textarea{
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 5px;
+}
+
+.submit{
+    color:rgb(82, 91, 255);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(122, 90, 226);
+    color: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+.message_div{
+    display: flex;
+    align-items: center;
+}
+
+.popup{
+    display: none;
+}

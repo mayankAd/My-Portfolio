@@ -6,12 +6,12 @@ const Navbar = () => {
     <>
     <div className={`${styles.container}`}>
         <div className={`${styles.logo}`}>
-            <a href="#"><img src="images/logo2.png" alt="" /></a>
+            <a href="#about_me"><img src="images/mylogo2.png" alt="" /></a>
             
         </div>
         <div className={`${styles.links}`}>
-            <a href="#projects_section"><Button  text={"Projects"} color={"black"} border_={"none"}/></a>
-            <Button text={"Say Hello"}/>
+            <a href="#projects_section"><button className='text-lg hover:text-violet-500'>Projects</button></a>
+            <a href='#Message_section'><Button text={"Say Hello"}/></a>
         </div>
     </div>
     </>

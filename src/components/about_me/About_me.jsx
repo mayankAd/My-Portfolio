@@ -2,7 +2,7 @@ import styles from "./About_me.module.css";
 
 const About_me = () => {
   return (
-    <div className={`${styles.main}`}>
+    <div id="about_me" className={`${styles.main}`}>
         <div className={`${styles.container}`}>
       <h2>Hi, I'm Mayank. Nice to meet you.</h2>
 

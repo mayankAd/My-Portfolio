@@ -10,7 +10,7 @@ import Icon from "../icons/Icon";
 
 const Footer = () => {
   return (
-    <div className="h-[600px] bg-violet-600 mt-36 rounded-xl ml-10 mr-10 mb-10 pt-20 shadow-lg flex items-center flex-col gap-14">
+    <div className="h-[600px] bg-violet-600 mt-10 rounded-xl ml-10 mr-10 mb-10 pt-20 shadow-lg flex items-center flex-col gap-14">
       <div className="h-[60px] w-[60px]">
         <img src="images/logo2.png" alt="" />
       </div>
@@ -18,9 +18,9 @@ const Footer = () => {
         Living, learning, & leveling up one day at a time.
       </p>
       <div className="flex gap-5 ">
-        <Icon icon={AiFillGithub} />
-        <Icon icon={AiFillTwitterCircle} />
-        <Icon icon={AiFillLinkedin} />
+        <Icon icon={AiFillGithub} link="https://github.com/mayankAd"/>
+        <Icon icon={AiFillTwitterCircle} link="https://twitter.com/mayankadhikar_i"/>
+        <Icon icon={AiFillLinkedin} link="https://www.linkedin.com/in/mayankadhikari/"/>
         <Icon icon={AiFillMail} />
         <Icon icon={AiFillFacebook} />
       </div>
