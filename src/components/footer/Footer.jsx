@@ -7,10 +7,18 @@ import { BiLogoReact } from "react-icons/bi";
 import { BiLogoTailwindCss } from "react-icons/bi";
 
 import Icon from "../icons/Icon";
+import { useContext } from "react";
+import { ThemeContext } from "../../App";
+
+
 
 const Footer = () => {
+
+  const data = useContext(ThemeContext);
+
   return (
-    <div className="h-[600px] bg-violet-600 mt-10 rounded-xl ml-10 mr-10 mb-10 pt-20 shadow-lg flex items-center flex-col gap-14">
+    <div  style={{backgroundColor:data.theme==="dark"?"black":"white", color:data.theme==="dark"?"white":"black"}}>
+    <div className="h-[600px] bg-violet-600 mt-10 rounded-xl ml-10 mr-10 pt-20 shadow-lg flex items-center flex-col gap-14"  style={{backgroundColor:data.theme==="dark"?"rgb(39, 0, 107)":"rgb(124,58,237)"}}>
       <div className="h-[60px] w-[60px]">
         <img src="images/logo2.png" alt="" />
       </div>
@@ -31,6 +39,7 @@ const Footer = () => {
           <BiLogoTailwindCss className="text-4xl hover:text-black" />
         </p>
       </div>
+    </div>
     </div>
   );
 };

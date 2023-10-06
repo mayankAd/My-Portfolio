@@ -31,7 +31,7 @@ export const ContactUs = () => {
         <div className={`${styles.div1}`}>
           <div>
             <label>Name</label>
-            <input type="text" name="from_name" />
+            <input type="text" name="from_name"/>
           </div>
           <div>
             <label>Email</label>

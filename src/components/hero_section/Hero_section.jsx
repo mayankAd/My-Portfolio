@@ -1,11 +1,16 @@
+import { ThemeContext } from "../../App";
 import styles from "./Hero_section.module.css";
-import React from "react";
+import React, { useContext } from "react";
 
 const Hero_section = () => {
+
+  const data = useContext(ThemeContext);
+
+
   return (
-    <div className={`${styles.container}`}>
-      <div className={`${styles.text}`}>
-        <h1>Aspiring Web Developer, Learner</h1>
+    <div className={`${styles.container}`} style={{backgroundColor:data.theme==="dark"?"black":"white", color:data.theme==="dark"?"white":"black"}}>
+      <div  className={`${styles.text} ${data.theme}`}>
+        <h1>Aspiring Web Developer,Learner</h1>
         <p>I code, I build websites, and I love what I do.</p>
       </div>
       <div className={`${styles.avatar}`}>

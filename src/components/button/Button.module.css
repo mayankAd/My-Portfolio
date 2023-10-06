@@ -8,6 +8,12 @@
     cursor: pointer;
 }
 
+.dark{
+    background-color: black;
+}
+
+
+
 .container:hover{
     background-color: rgb(84, 38, 222);
     color: white;

@@ -1,9 +1,16 @@
+import { useContext } from 'react'
 import styles from './Button.module.css'
+import { ThemeContext } from '../../App'
 
 const Button = (props) => {
+
+  const data = useContext(ThemeContext);
+
+  const isDark = (data.theme==="dark")
+
   return (
     <>
-    <button style={{color:props.color, border:props.border_}} className={`${styles.container}`}>{props.text}</button>
+    <button style={{backgroundColor:data.theme==="dark"?"purple":"white", borderColor:data.theme==="dark"?"white":"blue", color:data.theme==="dark"?"white":"blue"}} className={`${styles.container}`}>{props.text}</button>
     </>
   )
 }
