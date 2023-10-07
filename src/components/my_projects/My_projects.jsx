@@ -19,14 +19,14 @@ const My_projects = () => {
       </p>
       <div className="flex flex-wrap gap-20 justify-center mt-20">
         <a href="https://mayankad.github.io/movie_search_engine/" target="blank_">
-          <Project_box source={"images/movie_search_engine.png"}/>
+          <Project_box source={"images/movie_search_engine.png"} name={"Movie search engine"}/>
         </a>
 
         <a href="https://mayankad.github.io/todo_context_local/" target="blank_">
-          <Project_box source={"images/todo.png"}/>
+          <Project_box source={"images/todo.png"} name={"Todo Application"}/>
         </a>
         <a href="https://mayankad.github.io/Muscle-Showroom/" target="blank_">
-          <Project_box source={"images/netflix_clone.png"}/>
+          <Project_box source={"images/gym_website.png"} name={"Gym Website"}/>
         </a>
         
         

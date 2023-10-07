@@ -27,9 +27,9 @@ const Footer = () => {
       </p>
       <div className="flex gap-5 ">
         <Icon icon={AiFillGithub} link="https://github.com/mayankAd"/>
-        <Icon icon={AiFillTwitterCircle} link="https://twitter.com/mayankadhikar_i"/>
         <Icon icon={AiFillLinkedin} link="https://www.linkedin.com/in/mayankadhikari/"/>
-        <Icon icon={AiFillMail} />
+        <Icon icon={AiFillMail} link="mailto:mayankadhikari2001@gmail.com"/>
+        <Icon icon={AiFillTwitterCircle} link="https://twitter.com/mayankadhikar_i"/>
         <Icon icon={AiFillFacebook} />
       </div>
       <div className="flex flex-col gap-4 items-center">

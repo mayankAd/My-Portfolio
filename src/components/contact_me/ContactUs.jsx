@@ -29,16 +29,16 @@ export const ContactUs = () => {
     <div>
       <form ref={form} onSubmit={sendEmail} className={`${styles.container}`}>
         <div className={`${styles.div1}`}>
-          <div>
+          <div className="flex gap-3">
             <label>Name</label>
             <input type="text" name="from_name"/>
           </div>
-          <div>
+          <div className="flex gap-3">
             <label>Email</label>
             <input type="email" name="from_email" />
           </div>
         </div>
-        <div className={`${styles.message_div}`}>
+        <div className={`flex gap-3 ${styles.message_div}`}>
           <label>Message</label>
           <textarea name="message" />
         </div>
