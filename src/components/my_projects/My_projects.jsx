@@ -18,15 +18,15 @@ const My_projects = () => {
         .
       </p>
       <div className="flex flex-wrap gap-20 justify-center mt-20">
-        <a href="#">
-          <Project_box source={"images/netflix_clone.png"}/>
+        <a href="https://mayankad.github.io/movie_search_engine/" target="blank_">
+          <Project_box source={"images/movie_search_engine.png"}/>
         </a>
 
-        <a href="https://mayankad.github.io/Muscle-Showroom/">
+        <a href="https://mayankad.github.io/Muscle-Showroom/" target="blank_">
           <Project_box source={"images/nike_brand_page.png"}/>
         </a>
         <a href="#">
-          <Project_box source={"images/spotify_clone.png"}/>
+          <Project_box source={"images/netflix_clone.png"}/>
         </a>
         <a href="#">
           <Project_box source={"images/nike_brand_page.png"}/>
