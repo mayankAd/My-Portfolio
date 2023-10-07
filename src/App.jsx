@@ -7,6 +7,7 @@ import My_projects from './components/my_projects/My_projects'
 import Footer from './components/footer/Footer'
 import Message_section from './components/message_section/Message_section'
 
+import TypewriterEffect from './components/typewriter/TypewriterEffect'
 
 export const ThemeContext = createContext(null);
 
@@ -22,6 +23,7 @@ export const ThemeContext = createContext(null);
     <div style={{backgroundColor:theme==="dark"?"black":"white"}}>
     <Navbar />
     <Hero_section/>
+    
     <Section_two/>
     <My_projects/>
     <Message_section/>

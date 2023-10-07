@@ -25,15 +25,10 @@ const My_projects = () => {
         <a href="https://mayankad.github.io/todo_context_local/" target="blank_">
           <Project_box source={"images/todo.png"}/>
         </a>
-        <a href="#">
+        <a href="https://mayankad.github.io/Muscle-Showroom/" target="blank_">
           <Project_box source={"images/netflix_clone.png"}/>
         </a>
-        <a href="#">
-          <Project_box source={"images/nike_brand_page.png"}/>
-        </a>
-        <a href="#">
-          <Project_box source={"images/spotify_clone.png"}/>
-        </a>
+        
         
       </div>
     </div>

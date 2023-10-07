@@ -1,19 +1,12 @@
-#dark{
-    background-color: black;
-}
-
-
-
 .btn{
-    border: 1px solid gray;
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
     font-size: large;
     font-weight: bold;
     border-radius: 30px;
 }
 
-
-
-#light{
-    background-color: white;
+.btn:hover{
 }
+
+
