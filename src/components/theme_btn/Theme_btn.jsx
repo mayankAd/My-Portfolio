@@ -14,7 +14,7 @@ function Theme_btn() {
 
 
   return (
-    <button className={`${styles.btn} ` } onClick={toggleTheme} style={{color:data.theme==="dark"?"white":"black", backgroundColor:data.theme==="dark"?"grey":"yellow",}}>
+    <button className={`${styles.btn} hidden md:block lg:block` } onClick={toggleTheme} style={{color:data.theme==="dark"?"white":"black", backgroundColor:data.theme==="dark"?"grey":"yellow",}}>
         {data.theme}mode
     </button>
   )

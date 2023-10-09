@@ -20,7 +20,7 @@ export const ThemeContext = createContext(null);
 
   return (
     <ThemeContext.Provider value={{theme, setTheme}}>
-    <div style={{backgroundColor:theme==="dark"?"black":"white"}}>
+    <div className='' style={{backgroundColor:theme==="dark"?"black":"white"}}>
     <Navbar />
     <Hero_section/>
     
