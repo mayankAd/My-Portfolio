@@ -32,6 +32,12 @@ const My_projects = () => {
         .
       </p>
       <div className="flex flex-wrap gap-20 justify-center mt-20">
+
+      <a href="https://mayankad.github.io/youtube_clone/" target="blank_">
+          <Project_box source={"images/youtube_clone.png"} name={"YouTube clone(working)"} />
+        </a>
+
+
         <a href="https://mayankad.github.io/news_app/" target="blank_">
           <Project_box
             source={"images/news_website.png"}
@@ -57,6 +63,7 @@ const My_projects = () => {
         <a href="https://mayankad.github.io/Muscle-Showroom/" target="blank_">
           <Project_box source={"images/gym_website.png"} name={"Gym Website"} />
         </a>
+        
       </div>
     </div>
   );
